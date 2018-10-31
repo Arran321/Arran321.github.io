@@ -1,8 +1,18 @@
+body{
+	margin:0;
+}
+
+
+
+
+
+
 .background{
      background-color: #FFFF00;
      border: 9px black solid;
      position:relative;
      height: -webkit-fill-available;
+
 
 }
 h1{ font-family: 'Archivo Black', sans-serif; 
