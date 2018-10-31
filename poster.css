@@ -1,0 +1,158 @@
+.background{
+     background-color: #FFFF00;
+     border: 9px black solid;
+     position:relative;
+     height: -webkit-fill-available;
+
+}
+h1{ font-family: 'Archivo Black', sans-serif; 
+    font-size: 50pt;
+    color:#FF6400;
+    margin-top: 0;
+
+}
+
+h2{font-family: 'Archivo Black', sans-serif; 
+    font-size: 50pt;
+    color:#0000ff;
+    margin:0;
+    }
+
+ .Synonyms1 {
+ 	font-family: 'Archivo Narrow', sans-serif; 
+ 	font-size: 20pt;
+ 	color:#FF6400;
+ 	text-align: left;
+ 	display: block;
+
+
+ }
+
+.synonyms-group-1{
+     position: absolute;
+    top: 100px;
+    left: 0;
+
+
+
+
+}
+
+
+
+
+
+
+.Quate1{
+	font-family: 'Archivo Narrow', sans-serif;
+
+	text-align:right,top;
+	font-size: 3.2vw;
+	color: #FF6400;
+	position: absolute;
+	width: 26vw;
+	top: 0;
+	right: 0;
+
+}
+
+img.outside{
+    top:50%;
+	left:50%;
+	transform: translateY(-50%) translateX(-50%);
+	position: absolute;
+	width: 150%;
+
+
+}
+
+
+
+
+
+
+.ring{
+
+
+
+}
+
+
+
+
+.Synonyms2{font-family: 'Archivo Narrow', sans-serif; 
+ 	font-size: 20pt;
+ 	color:#0000ff;
+ 	text-align: right;
+ 	display: block;
+
+
+
+
+}
+
+.synonyms-group-2{
+	position: absolute;
+ 	bottom: 100px;
+ 	right:0;
+}
+.Quate2{
+	font-family: 'Archivo Narrow', sans-serif;
+
+	text-align:left,bottom;
+	font-size: 3.2vw;
+	color: #0000ff;
+	position: absolute;
+	bottom: 0;
+	width: 26vw;
+	left: 0;
+	line-height: 1;
+}
+
+
+
+
+
+
+
+
+
+@keyframes fade{
+	from {
+		opacity:0;
+	}
+
+	to {
+		opacity:1;
+	}
+}
+
+.ring2{
+	animation-name: fade;
+	animation-duration: 1.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	
+}
+
+
+
+.ring, .ring2 {
+	top:50%;
+	left:50%;
+	transform: translateY(-50%) translateX(-50%);
+	position: absolute;
+	width:50%;
+}
+
+.blue h2{
+      
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: bottom;
+     
+      text-align: right;
+
+
+}
